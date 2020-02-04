@@ -1,0 +1,444 @@
+
+
+
+.corp_page{
+    width:90%;
+    display:flex;
+    flex-direction:row;
+    margin:auto;
+
+}
+
+.bloc_droite{
+    display:flex;
+    flex-direction:column;
+    padding-right:8%;
+    width: 40%;
+}
+
+
+
+#bloc_gauche{
+    display:flex;
+    flex-direction:column;
+    width:24.8%;
+    justify-content: space-between;
+    margin-right:3.5%;
+    background-color:#FFCF05;
+}
+
+
+
+.header
+{
+    display:flex;
+    flex-direction:row;
+    border-bottom: 2px solid #FFCF05;
+    margin-right:auto;
+    font-family:'MontserratAlternates-Bold';
+}
+
+.photo
+{
+    text-align: center;
+    margin-top:30%;
+    
+
+}
+
+ img
+{
+    
+	height: 90px;
+	width: 90px;
+    border:1px solid #FFCF05;
+	
+	border-radius: 100%;
+	text-align: center;
+    background-color:#F5FFFA;
+}
+   
+
+.icontact h2
+{
+    
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    color: yellow;
+    margin-top: -250px;
+    font-family:'MontserratAlternates-Bold';
+    
+}
+.loisirs_de h2
+{
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    color: yellow;
+    font-family:'MontserratAlternates-Bold';
+}
+.apropos_de  h2
+{
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    color: yellow;
+    margin-top:-250px;
+    font-family:'MontserratAlternates-Bold';
+    
+}
+
+.apropos_de p, .icontact li
+{
+    font-family: monospace;
+    font-size: 15px;
+    margin :4px 4px  0px 6px;
+    
+}
+
+
+
+.loisirs_de li
+{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+/*bloc_droite*/
+
+.bloc_droite{
+    display:flex;
+    flex-direction:column;
+    padding-right:2%;
+    width: 64%;
+}
+.header
+{
+     display:flex; 
+     flex-direction:row; 
+    border-bottom: 2px solid #FFCF05; 
+    margin-right:16px; 
+}
+
+/*mise en page des logos */
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin-top: 4%;
+    margin-right: 3%;
+    color: #FFCF05;
+    
+}
+.fa-graduation-cap, .fa-briefcase, .fa-pencil-alt
+{
+    font-size: 2em;
+}
+
+.fa-biking, .fa-running, .fa-music
+{
+    color: black;
+    font-size: 1.70em;
+    margin: 4px;
+    padding: 7px;
+}
+
+.fa-dot-circle, .fa-circle
+{
+    margin-top:9.6%;
+    margin-right:10%;
+}
+
+ul{
+    list-style:none;
+    padding : 0px 0px 0px 40px;
+}
+
+.entete{
+        margin-top:6%;
+}
+h1
+{
+
+    font-size: 2em;
+    font-family:  'robotothin_italic';
+    margin-top: 2%;
+
+}
+.entete p
+{
+    font-size: 1.40em;
+    margin:2% 3% 0% 0%;
+
+
+}
+
+.stylenom
+{
+    color: #FFCF05;
+    
+}
+.new
+{  
+  border-bottom: 2px solid #FFCF05;
+}
+
+
+
+
+ .bloc,.contenu_comp
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.date{
+    display: flex;
+    flex-direction: row;
+    margin-right:4%;
+    width:50%;
+
+
+}
+
+.organisme h3
+{
+    text-align: justify;
+    font-family:'MontserratAlternates-Bold';
+    
+}
+h4
+{
+   
+    font-family:'MontserratAlternates-Bold';
+    text-shadow:1px 2px 0.9px;
+    font-size: 1em;
+    margin-left:10%;
+}
+
+.sous_titre1
+{
+   text-shadow:  1px 1px 1px black;
+} 
+
+
+h2{
+    margin-top:25px;
+}
+
+.loisirs_de  li:nth-child(2)
+{
+    padding: 2px;
+    margin: 6px 2px 2px 1px;
+    
+}
+
+ @font-face
+ {
+        font-family:'MontserratAlternates-Bold';
+        src:url('MontserratAlternates-Bold.otf');
+     
+ }
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff2') format('woff2'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url('Roboto-ThinItalic-webfont.eot');
+    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-ThinItalic-webfont.woff2') format('woff2'),
+         url('Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('Roboto-ThinItalic-webfont.svg#robotothin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    
+    .corp_page{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    margin:auto;
+}
+    
+ul
+{
+    padding : 0px 0px 0px 20px;
+}
+.bloc_droite{
+    display:flex;
+    flex-direction:column;
+    padding-right:2%;
+    width: 72%;
+}
+#bloc_gauche{
+    display:flex;
+    flex-direction:column;
+    width:24.5%;
+    justify-content: space-between;
+    margin-right:3.5%;
+    background-color:#FFCF05;
+}
+    .date{
+    display: flex;
+    flex-direction: row;
+    margin-right:2%;
+    width:70%;
+
+
+}
+    
+}
+ @media screen and (max-width: 900px){
+
+   .corp_page{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    margin:auto;
+}
+    
+ul
+{
+    padding : 0px 0px 0px 2px;
+}
+.bloc_droite{
+    display:flex;
+    flex-direction:column;
+    padding-right:2%;
+    width: 67%;
+}
+#bloc_gauche{
+    display:flex;
+    flex-direction:column;
+    width:30%;
+    justify-content: space-between;
+    margin-right:3.5%;
+    background-color:#FFCF05;
+}
+    .date{
+    display: flex;
+    flex-direction: row;
+    margin-right:2%;
+    width:70%;
+    }
+    
+ .bloc
+{
+    display: flex;
+    flex-direction: column;
+}
+.alligne{
+    margin: 9% 1% 2% ;
+    
+}
+
+}
+
+ @media screen and (max-width: 660px){
+
+#bloc_gauche{
+    display:flex;
+    flex-direction:column;
+    width:60%;
+    justify-content: space-between;
+    margin-right:3.5%;
+    background-color:#FFCF05;
+}
+
+
+ }     
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
